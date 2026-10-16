@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+*.egg-info/
+build/
+output/
+datasets/bdh/
+pretrained/*.pkl
+pretrained/*.pth
+*.so
+*.pyd
+.DS_Store

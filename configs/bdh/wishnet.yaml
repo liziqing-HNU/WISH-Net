@@ -1,0 +1,8 @@
+# WISH-Net, the paper's final model: gf3_insar.yaml with the two-way exchange
+# between the optical and the SAR memory at the encoder stage.
+_BASE_: gf3_insar.yaml
+MODEL:
+  WISHNET:
+    ENCODER_EXCHANGE:
+      ENABLED: True
+OUTPUT_DIR: "output/wishnet"

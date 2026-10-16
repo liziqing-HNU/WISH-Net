@@ -1,0 +1,9 @@
+# Optical + GF-3 + Sentinel-1 InSAR: gf3.yaml with the InSAR tile (17 channels)
+# joined to the GF-3 levels in the SAR encoder and read along Sentinel-1's own
+# direction; no encoder-stage exchange.  The ladder's "+InSAR" step.
+_BASE_: gf3.yaml
+MODEL:
+  WISHNET:
+    INSAR:
+      ENABLED: True
+OUTPUT_DIR: "output/gf3_insar"

@@ -1,0 +1,5 @@
+e5563b9b0cb47294eb6b28ce63b87506  R-50_torchgeo_fmow_rgb_gassl.pkl
+c24a012a4ae5ecd549313e6a85483e7b  R-18_imagenet_sar1_adabn.pkl
+c80fb17e897cf47809427f6c74477bf4  R-18_imagenet_sar1_adabn_gn.pkl
+44b4461bb9aea7272838f19be6c70acc  resnet50_fmow_rgb_gassl-da43d987.pth
+e0b1c919e74f9a193d36871d9964bf7d  resnet18-f37072fd.pth

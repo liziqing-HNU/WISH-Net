@@ -1,0 +1,16 @@
+# Optical + GF-3: the SAR branch on the GF-3 backscatter alone, read by every
+# decoder layer with the range anchors and the gated injection (its gate held
+# for the first 4000 steps), the optical-only auxiliary pass (weight 0.5) and
+# the GF-3 speckle resampling.  The ladder's "+GF-3" step.
+_BASE_: Base-WISHNet.yaml
+MODEL:
+  WISHNET:
+    MODE: "fusion"
+    OPTICAL_PASS:
+      WEIGHT: 0.5
+    FUSION:
+      GATE_WARMUP_ITERS: 4000
+    SAR:
+      SPECKLE:
+        ENABLED: True
+OUTPUT_DIR: "output/gf3"

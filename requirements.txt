@@ -1,0 +1,14 @@
+# PyTorch, torchvision and detectron2 are installed first (INSTALL.md).
+# The versions are those of the paper's runs where they were recorded.
+numpy==1.26.4
+scipy
+shapely
+pycocotools
+tifffile
+opencv-python-headless==4.10.0.84
+fvcore==0.1.5.post20221221
+iopath==0.1.9
+timm
+tensorboard
+tabulate
+cython

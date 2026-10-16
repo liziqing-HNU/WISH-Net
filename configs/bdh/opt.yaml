@@ -1,0 +1,9 @@
+# The optical-only model: MaskDINO with the height and offset heads and the
+# whole recipe (separate proposal heads, the soft ordinal height target, the
+# eight flips and rotations, the height-balanced weights), no SAR.  The
+# paper's matched optical model.
+_BASE_: Base-WISHNet.yaml
+MODEL:
+  WISHNET:
+    MODE: "opt"
+OUTPUT_DIR: "output/opt"
